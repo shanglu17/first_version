@@ -5,6 +5,7 @@ import VueRouter from 'vue-router'
 import Welcome from './components/Welcome.vue'
 import Creation1 from './components/Creation1.vue'
 import Creation2 from './components/Creation2.vue'
+import Creation3 from './components/Creation3.vue'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
@@ -12,7 +13,8 @@ Vue.use(VueRouter)
 const routes = [
   { path: '/', component: Welcome },
   { path: '/creation1', component: Creation1 },
-  { path: '/creation2', component: Creation2 }
+  { path: '/creation2', component: Creation2 },
+  { path: '/creation3', component: Creation3 }
 ]
 
 const router = new VueRouter({
@@ -23,3 +25,4 @@ new Vue({
   router,
   render: h => h(App)
 }).$mount('#app')
+

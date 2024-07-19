@@ -1,6 +1,6 @@
 <template>
     <div @click="goToCreation1" class="welcome-screen">
-      <img src="@/assets/欢迎界面.png" alt="欢迎界面">
+      <img src="../assets/欢迎界面.png" alt="欢迎界面">
     </div>
   </template>
   
